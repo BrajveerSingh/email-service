@@ -1,0 +1,3 @@
+rootProject.name = 'emailservice'
+include 'emailservice','base-domain'
+project(':base-domain').projectDir = new File('../base-domain')
